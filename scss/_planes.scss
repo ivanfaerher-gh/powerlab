@@ -1,13 +1,18 @@
 .planes {
     width: 100%;
-    min-height: 100%;
-    min-height: 25vh;
+    flex:1;
+    padding:5rem 2rem;
     background-color: $color-negro;
 
-    @include centrado;
-
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+
+
+
+    
 
     p {
         font-size: 1.125rem;
