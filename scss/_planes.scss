@@ -1,0 +1,30 @@
+.planes {
+    width: 100%;
+    min-height: 25vh;
+    background-color: $color-negro;
+
+    @include centrado;
+
+    flex-direction: column;
+    text-align: center;
+
+    p {
+        font-size: 1.125rem;
+        max-width: 55rem;
+        color: $color-blanco;
+    }
+}
+
+.planes-titulo-planes,
+.planes-titulo-personalizados {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+.planes-titulo-planes {
+    color: $color-blanco;
+}
+
+.planes-titulo-personalizados {
+    color: $color-principal;
+}

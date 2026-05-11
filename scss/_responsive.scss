@@ -1,0 +1,119 @@
+/* ========================= */
+/* RESPONSIVE DESKTOP */
+/* ========================= */
+
+@media (min-width: 1024px) {
+
+    .productos {
+        padding: 5rem 1rem;
+    }
+
+    .producto-card {
+        width: 17.5rem;
+    }
+
+    .index-main h1 {
+        font-size: 3rem;
+    }
+
+}
+
+
+/* ========================= */
+/* RESPONSIVE TABLET */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav {
+
+        ul {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+    }
+
+    /* BANNER */
+    .banner-imagen img {
+        height: 250px;
+    }
+
+    /* TITULO PRINCIPAL */
+    .index-main {
+
+        h1 {
+            font-size: 2rem;
+            padding: 0 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            padding: 0 20px;
+        }
+
+    }
+
+    /* PRODUCTOS */
+    .productos {
+        padding: 50px 20px;
+    }
+
+    .producto-card {
+        width: 90%;
+        height: auto;
+
+        img {
+            height: 220px;
+        }
+    }
+
+    /* PLANES */
+    .planes {
+        padding: 40px 20px;
+
+        p {
+            padding: 0 20px;
+        }
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 30px 20px;
+    }
+
+}
+
+
+/* ========================= */
+/* RESPONSIVE CELULAR */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+    .index-main h1 {
+        font-size: 1.7rem;
+    }
+
+    .productos-titulo {
+        font-size: 1.8rem;
+    }
+
+    .planes-titulo-planes,
+    .planes-titulo-personalizados {
+        font-size: 1.8rem;
+    }
+
+    nav a {
+        font-size: 0.95rem;
+    }
+
+}
