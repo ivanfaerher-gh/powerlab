@@ -67,7 +67,6 @@ nav a {
 
 .productos {
   width: 100%;
-  min-height: 100%;
   padding: 5rem 0;
   background-color: #543ae9;
   display: flex;
@@ -164,7 +163,6 @@ footer {
   background-color: #111;
   text-align: center;
   color: #ffffff;
-  margin-top: auto;
 }
 
 /* ========================= */
