@@ -83,6 +83,14 @@ nav a {
   text-transform: uppercase;
 }
 
+#contenedor-productos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
 .producto-card {
   width: 17.5rem;
   height: 13.75rem;
@@ -102,7 +110,20 @@ nav a {
      object-fit: cover;
   margin-top: 1.25rem;
 }
-.producto-card:hover {
+.producto-card .btn-agregar {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #1100ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.producto-card .btn-agregar:hover {
+  background-color: #0000cc;
+}
+.producto-card .btn-agregar:hover {
   transform: translateY(-0.5rem);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }

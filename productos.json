@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "nombre": "Proteína Whey",
+        "descripcion": "Favorece el crecimiento y recuperación muscular.",
+        "precio": 25000,
+        "imagen": "img/proteinas.jpeg"
+    },
+
+    {
+        "id": 2,
+        "nombre": "Creatina",
+        "descripcion": "Aumenta la fuerza y el rendimiento físico.",
+        "precio": 18000,
+        "imagen": "img/creatinas.jpeg"
+    },
+
+    {
+        "id": 3,
+        "nombre": "Pre Entreno",
+        "descripcion": "Mayor energía y concentración antes de entrenar.",
+        "precio": 15000,
+        "imagen": "img/pre-entrenos.jpeg"
+    }
+]
